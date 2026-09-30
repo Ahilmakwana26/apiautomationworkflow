@@ -1,4 +1,6 @@
-import { executeHttpStep,executeTransformStep,executeConditionStep } from "../blocks/http.js";
+import { executeHttpStep} from "../blocks/http/http.js";
+import { executeTransformStep } from "../blocks/transform/executeTransformStep.js";
+import {executeConditionStep} from '../blocks/condition/executeConditionStep.js';
 
 export function executeStep(step, context) {
 
